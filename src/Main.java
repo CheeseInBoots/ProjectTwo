@@ -10,4 +10,16 @@ public class Main {
     public static void nothing(){
         System.out.println("Print out nothing!");
     }
+    public static int sumOf10 (int num){
+        int sum = 0;
+
+        for (int i = 5; i < num; i++) {
+            if (i % 2 == 0){
+                sum = sum + i;
+            }
+            }
+
+        return sum;
+
+    }
 }
