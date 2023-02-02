@@ -7,4 +7,7 @@ public class Main {
 
       return a;
     }
+    public static void nothing(){
+        System.out.println("Print out nothing!");
+    }
 }
