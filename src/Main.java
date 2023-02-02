@@ -22,4 +22,8 @@ public class Main {
         return sum;
 
     }
+    public static String lastestChange(){
+        String s = "laterst chante ";
+        return s;
+    }
 }
